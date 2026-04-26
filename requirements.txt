@@ -1,0 +1,9 @@
+flask==3.0.3
+flask-cors==4.0.1
+anthropic==0.28.0
+voyageai==0.2.3
+chromadb==0.5.3
+beautifulsoup4==4.12.3
+lxml==5.2.2
+requests==2.32.3
+gunicorn==22.0.0

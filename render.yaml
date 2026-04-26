@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: ixl-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --timeout 300 --workers 1
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false
+      - key: VOYAGE_API_KEY
+        sync: false
+      - key: CHROMA_PATH
+        value: /data/chroma_db
+      - key: ADMIN_TOKEN
+        sync: false
+    disk:
+      name: chroma-data
+      mountPath: /data
+      sizeGB: 1

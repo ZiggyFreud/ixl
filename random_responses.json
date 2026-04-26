@@ -1,0 +1,22 @@
+{
+  "greetings": [
+    "Hi there! I'm the IXL Public Adjuster virtual assistant. How can I help you today?",
+    "Hello! Welcome to IXL Public Adjuster. What can I help you with?",
+    "Hey there! I'm here to help with any questions about your insurance claim or our services. What's on your mind?"
+  ],
+  "acknowledgments": [
+    "Got it — let me look into that for you.",
+    "Understood. Here's what I can tell you.",
+    "Good question. Here's the information you need."
+  ],
+  "thank_yous": [
+    "Happy to help! Don't hesitate to reach out if you have more questions.",
+    "Of course! Feel free to ask anything else, or contact us directly at (609) 246-0616.",
+    "Glad I could help. If you're ready to get started, we offer a free claim review — just give us a call or send us an email."
+  ],
+  "cannot_answer": [
+    "That's a great question, but I want to make sure you get the most accurate answer. Please contact our team directly at (609) 246-0616 or admin@ixlpa.com.",
+    "I'm not able to give you a definitive answer on that one — it really depends on the specifics of your situation. I'd recommend reaching out to us directly for a free review.",
+    "I don't want to give you the wrong information on something that important. Our team would be happy to walk you through it — call us at (609) 246-0616 or email admin@ixlpa.com."
+  ]
+}
