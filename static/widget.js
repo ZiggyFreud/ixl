@@ -1,6 +1,6 @@
 (function () {
   // ── Config ────────────────────────────────────────────────────────────────
-  const BOT_ENDPOINT = "https://ixl-bot.onrender.com/chat"; // update after deploy
+  const BOT_ENDPOINT = "https://ixl-bot.onrender.com/chat";
   const PRIMARY_COLOR = "#1a2b4a";   // IXL navy
   const ACCENT_COLOR  = "#c9a84c";   // IXL gold
   const BOT_NAME      = "IXL Assistant";
